@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #1462dc;
+}
+
+.form {
+    width: 90%;
+    height: 200px;
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
