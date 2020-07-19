@@ -99,12 +99,15 @@ def _encode(tokenizer, body, language):
         body = body.replace('[mask]', ' ')
         tokenized_text = _split_sentence(body, language)
 
-        sum = 0
-        for i, word in enumerate(tokenized_text):
-            sum += len(word)
+        if mask_idx == 0:
+            tokenized_text.insert(0, '[MASK]')
+        else:
+            sum = 0
+            for i, word in enumerate(tokenized_text):
+                sum += len(word)
 
-            if sum == mask_idx:
-                tokenized_text.insert(i+1, '[MASK]')
+                if sum == mask_idx:
+                    tokenized_text.insert(i+1, '[MASK]')
     else:
         body = body.replace('[mask]', tokenizer.mask_token)
         tokenized_text = _split_sentence(body, language)

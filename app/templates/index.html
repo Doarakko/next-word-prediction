@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="static/css/index.css" type="text/css" />
+    <script src="static/js/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Next Word Prediction</title>
 </head>
 <body>
@@ -12,11 +14,21 @@
     <div class="header">
         <h1>Next Word Prediction</h1>
     </div>
-    <h2>Input sentence</h2>
-    <p>If you want to predict the middle word instead of the end, use "[mask]"</p>
-    <textarea name="body" placeholder="" class="form"></textarea>
+    <form>
+        <h2>Input</h2>
+        <p>If you want to predict the middle word instead of the end, use "[mask]"</p>
+        <textarea id="body" name="body" placeholder=""></textarea>
+        <div id="languages">
+            <input type="radio" id="en" name="language" value="en" checked="checked">English
+            <input type="radio" id="ja" name="language" value="ja">Japanese
+            <input type="radio" id="ch" name="language" value="ch">Chinese
+        </div>
+        <div>
+            <button type="button" onclick="predictNextWords()">Predict</button>
+        </div>
+    </form>
     <h2>Predictions</h2>
-    {{ message }}
+     <textarea id="predictions" name="predictions" placeholder="" readonly></textarea>
 </body>
 
 </html>

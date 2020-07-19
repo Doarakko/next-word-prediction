@@ -9,13 +9,21 @@ h1 {
     color: white;
 }
 
+button {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 .header {
     padding-top: 12px;
     padding-bottom: 12px;
     background: #1462dc;
 }
 
-.form {
+textarea {
     width: 90%;
     height: 200px;
     max-width: 90%;
