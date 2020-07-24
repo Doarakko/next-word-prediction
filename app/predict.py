@@ -11,12 +11,12 @@ from transformers import BertTokenizer, BertForMaskedLM, BertJapaneseTokenizer
 logging.basicConfig(level=logging.INFO)
 
 # ref: https://huggingface.co/transformers/pretrained_models.html
-BERT_CHINESE = 'bert-base-chinese'
-BERT_DUTCH = 'wietsedv/bert-base-dutch-cased'
 BERT_ENGLISH = 'bert-base-uncased'
-BERT_FINNISH = 'TurkuNLP/bert-base-finnish-uncased-v1'
-BERT_GERMAN = 'bert-base-german-cased'
 BERT_JAPANESE = 'cl-tohoku/bert-base-japanese-whole-word-masking'
+BERT_CHINESE = 'bert-base-chinese'
+# BERT_DUTCH = 'wietsedv/bert-base-dutch-cased'
+# BERT_FINNISH = 'TurkuNLP/bert-base-finnish-uncased-v1'
+# BERT_GERMAN = 'bert-base-german-cased'
 
 english_tokenizer = BertTokenizer.from_pretrained(BERT_ENGLISH)
 english_model = BertForMaskedLM.from_pretrained(BERT_ENGLISH).eval()
@@ -46,27 +46,27 @@ def predict_language(s: str) -> str:
 
 
 def _get_tokenizer_and_model(language: str):
-    if language == 'ch':
-        return chinese_tokenizer, chinese_model
-    elif language == 'de':
-        return german_tokenizer, german_model
-    elif language == 'en':
+    if language == 'en':
         return english_tokenizer, english_model
-    elif language == 'fi':
-        return finnish_tokenizer, finnish_model
     elif language == 'ja':
         return japanese_tokenizer, japanese_model
-    elif language == 'nl':
-        return dutch_tokenizer, dutch_model
+    elif language == 'ch':
+        return chinese_tokenizer, chinese_model
+    # elif language == 'de':
+    #     return german_tokenizer, german_model
+    # elif language == 'fi':
+    #     return finnish_tokenizer, finnish_model
+    # elif language == 'nl':
+    #     return dutch_tokenizer, dutch_model
 
     raise Exception
 
 
 def _split_sentence(s: str, language: str):
-    if language == 'ch':
-        return _split_chinese_sentence(s)
-    elif language == 'ja':
+    if language == 'ja':
         return _split_japanese_sentence(s)
+    elif language == 'ch':
+        return _split_chinese_sentence(s)
 
     return s.split(' ')
 
