@@ -596,12 +596,12 @@ torch = ["torch"]
 
 [[package]]
 name = "unidic-lite"
-version = "1.0.6"
+version = "1.0.8"
 description = "A small version of UniDic packaged for Python"
 optional = false
 python-versions = "*"
 files = [
-    {file = "unidic-lite-1.0.6.tar.gz", hash = "sha256:922fce27497df67ba8931595f04d3d0b5c4e91bebbc377eda1da3218500c37d5"},
+    {file = "unidic-lite-1.0.8.tar.gz", hash = "sha256:db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245"},
 ]
 
 [[package]]
@@ -638,4 +638,4 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "64a91198776cf49a9c6e355d0f11feaaf4194365d696fdc2427e5d7a6ef013fa"
+content-hash = "1f2e3d6ebbdf5f5d77dc4b52b8129e23db0b029f0ecdd6eeec0a6e0dfc65b041"
