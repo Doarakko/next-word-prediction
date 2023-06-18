@@ -229,44 +229,34 @@ files = [
 
 [[package]]
 name = "mecab-python3"
-version = "1.0.0"
+version = "1.0.6"
 description = "Python wrapper for the MeCab morphological analyzer for Japanese"
 optional = false
 python-versions = "*"
 files = [
-    {file = "mecab-python3-1.0.0.tar.gz", hash = "sha256:5c92be050b32e4cdc1811955e5ea60ae0fc6c7176d4d5e82c5d09530c317a476"},
-    {file = "mecab_python3-1.0.0-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:79347e2b82774651abc071f1b15efe4b146f5d4ca724f43c6d99c04707fadc9f"},
-    {file = "mecab_python3-1.0.0-cp27-cp27m-manylinux1_i686.whl", hash = "sha256:48605fcac3c308b03a0154359e7e7efbc7c88d1e020510576a1945f96129d75f"},
-    {file = "mecab_python3-1.0.0-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:d8b29d613549636d32ae17c897d63c8d868867787665307cfa08d62da493073b"},
-    {file = "mecab_python3-1.0.0-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:d1699451a81c6494c2c330dffcdf0daa6cd2b51e3623bcce5f9471ecbcdefc7d"},
-    {file = "mecab_python3-1.0.0-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:910366058147dce0c5eb37b7651b0c7f5611ac3a5f60a9ac28d65673d225268e"},
-    {file = "mecab_python3-1.0.0-cp27-cp27mu-manylinux1_i686.whl", hash = "sha256:8f0d58465f8545622e95a2c6e9b32e1a7a890797386e27dbef2d4dfff4d2fa81"},
-    {file = "mecab_python3-1.0.0-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:3890c0eb49fb886575a8a4c312ffc39efa94fa629a6decfa47646addee953b64"},
-    {file = "mecab_python3-1.0.0-cp27-cp27mu-manylinux2010_i686.whl", hash = "sha256:9de6227fd4c5f76b3dbae9c7141fdd36a49e7c99b42b2a17b3dadcf498223b96"},
-    {file = "mecab_python3-1.0.0-cp27-cp27mu-manylinux2010_x86_64.whl", hash = "sha256:4fdd0db64a3ff8ac202ef55dff6ab222d8472b73b2aedd92925e856c50365385"},
-    {file = "mecab_python3-1.0.0-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:c96c5873836cf3f25b71be29b84c4105f0a33bd155ae44323a1b17ca26c3e12b"},
-    {file = "mecab_python3-1.0.0-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:f0b51a7f6a81f59e86ec014f61a425af5874c0e7a846dbc2bfed8e3ff316e6b0"},
-    {file = "mecab_python3-1.0.0-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:ebf79fc83b31b3c7b95b0b6053ea0dbc8c9ae941078444d5b40a3f9b4932080e"},
-    {file = "mecab_python3-1.0.0-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:0989020517bdc0b8b980cc9cfe2f6082e80bfc19af6b4c7e526766bc92ab9cc5"},
-    {file = "mecab_python3-1.0.0-cp35-cp35m-win_amd64.whl", hash = "sha256:43fe8ca1c23bede8f2a001a965c469b868de94c442d4979c1c57841e899fafdd"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:e02082c6873550d20550480405d562b4cde00e1307df3fe9aa1e278d731dd153"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:1e41b7993b61f61956a59f273161b6f487c7fb7647772be100919812bd3d3c65"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:b968e61cc308a569c4da9351c1cc99468e320579a39c640511075d202acfc018"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:4a1271e3a900db8c61787b45bf868a33e6d2107581b983c00f58f98f493f64e5"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:bf9f976abdc446180afa7e6af6f4ed61990eba8ea8d5f01529d91cca403dc253"},
-    {file = "mecab_python3-1.0.0-cp36-cp36m-win_amd64.whl", hash = "sha256:1a09ed83dd80787583fe716d8d6f6f78939bcec1cb806fa6667dfaaad4c2d5ae"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:1121192cda163aceb9b3f12e9f1dda12abfd4510e9e858058a65b8728ff4b08b"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:f146010b3af47db089364c62413231e1438345765242c70c43585e4ee7aeffa8"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:abd289cd082454245c8c1e23dfd15e35a7ac09a1b47d82c34dfbe5e5bd691146"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:9daaee7a0c234125c12abb8d83a806b8caf18ecf146871e6cce5c16ca20d6c6c"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:9fa83cb4f8744d21c4e0fb8abaeebf71e2c32ecf0b697fe629a42cff591a468d"},
-    {file = "mecab_python3-1.0.0-cp37-cp37m-win_amd64.whl", hash = "sha256:4c01f1c7e4622eb4c812151bf29dd44cd869629fbf9353171bef4867a3464651"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:a912eee399754a656ebeffbad3b5f3077480d15ccc0156216872f0309a8ce2bc"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-manylinux1_i686.whl", hash = "sha256:18edc47bf0daec5a7c428f468f4ff12269f06138639b41688a91ae22f112b135"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:05ca239ec76da50800ba18bd383736e1a1a7df0db05fd2b6525d34e3b039f120"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:6667fd513a53c2430cfe7ea165c3e7761c3c93189922237e953ab1672c506375"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:edb47e1e34854d62131d2c29ff65a863812a8980ab46aed11faa565e9bc42521"},
-    {file = "mecab_python3-1.0.0-cp38-cp38-win_amd64.whl", hash = "sha256:f020a1d9393824de59df0eae1fb551f5025fc37e263ab30bd10ac0ca4bd34bb1"},
+    {file = "mecab-python3-1.0.6.tar.gz", hash = "sha256:16f38ace484020bd3446a10054829678c1e7b97f1740b58b00a31d595cff025e"},
+    {file = "mecab_python3-1.0.6-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:0fb9f5a06f9cd9c5724608956128b91f5330248a78e9de322a0abd5beaba24a3"},
+    {file = "mecab_python3-1.0.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6c99ec5f5581e4b56c8b68b4eeac4c6b59c6de12e66a2cfe4b1c6f8e87d38bd7"},
+    {file = "mecab_python3-1.0.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:30177272efa6ba26909b540e3816659c9f93ee49a5cc2b8ea47c17eff05c686b"},
+    {file = "mecab_python3-1.0.6-cp310-cp310-win_amd64.whl", hash = "sha256:fd10ba05f94dea7fe5e281336b7a4d07f79062c25139077d935833d0db303450"},
+    {file = "mecab_python3-1.0.6-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:023cfd4efa26fc61563ee185e8ac3d5fcdffcaba01931bbae34aa0ec06814875"},
+    {file = "mecab_python3-1.0.6-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3eb8655d4eb7e17dbe7f409b8dda327539de9ee8cf06ebe338aa595bb597b53d"},
+    {file = "mecab_python3-1.0.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a455f0f1830392548366aae56819a22fa0f5786c39c4cf6cf84fe438a5fc7cbc"},
+    {file = "mecab_python3-1.0.6-cp311-cp311-win_amd64.whl", hash = "sha256:e28997040b5ea9df3cf8969c5d28e7ba730ef4f924badac0548cd14383e56c66"},
+    {file = "mecab_python3-1.0.6-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:2958a94ee7ed521e95c333a7b66adcead9973db3d4f4873789c425d41726e52c"},
+    {file = "mecab_python3-1.0.6-cp36-cp36m-win_amd64.whl", hash = "sha256:c80e58dcc90da095b64799950046dc4b9db3fb6bf30a8f817d1639cdaf601ba1"},
+    {file = "mecab_python3-1.0.6-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:8f0c5fe224c28ebd6fad2199be129755246091310de71eb9a43d88473d5b8950"},
+    {file = "mecab_python3-1.0.6-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e049805f8342020b559357f4ea2b69b7d4faf8681c979ffd868d4d25d3a89021"},
+    {file = "mecab_python3-1.0.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b56692cef89cd8ad0179bd2f989e4b3209686eb59124e0191167d9a3e64cd1a0"},
+    {file = "mecab_python3-1.0.6-cp37-cp37m-win_amd64.whl", hash = "sha256:68334cbc6e0442ccd57770137ece585de9a512f01405bd2ad074fd28578180f8"},
+    {file = "mecab_python3-1.0.6-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:ef43e4ab82396d1a59f4d8e2237c4136e09391e8e8ba623af4b52e6b52377fdd"},
+    {file = "mecab_python3-1.0.6-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:fde76ebc2fcf4f375b520a706af316f88be304302f5e5d36105992a1ecd3ea1b"},
+    {file = "mecab_python3-1.0.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:849aa7cfb828f0fb65340666fb2ae281855f5319699291121e116f43f478401c"},
+    {file = "mecab_python3-1.0.6-cp38-cp38-win_amd64.whl", hash = "sha256:d1061bcd3d5567d6522e8794773689e6f9dedadcd3d3b1652893142f6334ec95"},
+    {file = "mecab_python3-1.0.6-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:b2a3b6243d709ccf6672d54c9c17cb6281a17737626caaafb0219944835d6b9c"},
+    {file = "mecab_python3-1.0.6-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b8c995629aeb6bdddf37eee1c4049549ff1993e3888e28eb6cc59c8dce79de41"},
+    {file = "mecab_python3-1.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e00f0c329c7708b6cf5e5b2b1772535de3d6d69f99e6105a1acf40b94c62afe5"},
+    {file = "mecab_python3-1.0.6-cp39-cp39-win_amd64.whl", hash = "sha256:9c3eeb4adf864a74ced9a1c5443b174f1e851323143ca6f24391fb6db8d44110"},
 ]
 
 [package.extras]
@@ -638,4 +628,4 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "1f2e3d6ebbdf5f5d77dc4b52b8129e23db0b029f0ecdd6eeec0a6e0dfc65b041"
+content-hash = "49f40604f3024452af50bf84bb3aeb9d473dc54dc714c6767b504cda3d91155c"
