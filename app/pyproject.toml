@@ -16,7 +16,7 @@ unidic-lite = "^1.0.8"
 jieba = "^0.42.1"
 
 [tool.poetry.dev-dependencies]
-autopep8 = "^2.0.2"
+autopep8 = "^2.0.4"
 
 [build-system]
 requires = ["poetry>=0.12"]
